@@ -1,2 +1,4 @@
 .DS_Store
 .vscode
+./Develop/package-lock.json
+./Develop/node_modules
