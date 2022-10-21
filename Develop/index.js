@@ -11,13 +11,17 @@ const questions = [
     "How do you use your project?",
     "Write some contribution guidelines for others.",
     "Write some example tests for your project.",
-    "Choose a license.",
     "What's your GitHub username?",
-    "What's your email?"
+    "What's your email?",
+    "Choose a license."
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+
+    }
+}
 
 // TODO: Create a function to initialize app
 function init() {}
