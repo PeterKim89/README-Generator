@@ -19,22 +19,24 @@ const questions = () => {
         {
             type: "input",
             name: "installation",
-            message: "Write some installation instructions for your project."
+            message: "What command should be run to install dependencies?",
+            default: "npm i"
         },
         {
             type: "input",
             name: "usage",
-            message: "How do you use your project?"
+            message: "What should be known to use your project?"
         },
         {
             type: "input",
             name: "contribution",
-            message: "Write some contribution guidelines for others.",
+            message: "What should be known to contribute to your project?",
         },
         {  
             type: "input",
             name: "tests",
-            message: "Write some example tests for your project.",
+            message: "What command should be run to run tests?",
+            default: "npm test"
         },    
         {
             type: "input",
@@ -49,7 +51,9 @@ const questions = () => {
         {
             type: "list",
             name: "license",
-            message: "Choose a license for your project."
+            message: "Choose a license for your project.",
+            choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3"],
+            default: ["MIT"]
         }
 ]);
 };
