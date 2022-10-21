@@ -7,30 +7,39 @@ const fs = require('fs');
 const questions = () => {
     return inquirer.prompt([
         {
+            type: "input",
             "What's your project's title?"
         },  
         {
+            type: "input",
             "Write a short description for your project."
         },
         {
+            type: "input",
             "Write some installation instructions for your project."
         },
         {
+            type: "input",
             "How do you use your project?"
         },
         {
+            type: "input",
             "Write some contribution guidelines for others.",
         },
         {  
+            type: "input",
             "Write some example tests for your project.",
         },    
         {
+            type: "input",
             "What's your GitHub username?",
         },
         {
+            type: "input",
             "What's your email?",
         },
         {
+            type: "list",
             "Choose a license for your project."
         }
 ]);
