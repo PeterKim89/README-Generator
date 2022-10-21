@@ -27,7 +27,23 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
+  ## Installation
+  ${data.install}
   
+  ## Usage
+  ${data.usage}
+
+  ## Contributions
+  ${data.contributors}
+
+  ## Tests 
+  ${data.test}
+
+  ## Author
+  ${data.github}
+
+  ## Questions
+  If you have any other questions, please contact me at ${data.email}.
 `;
 }
 
