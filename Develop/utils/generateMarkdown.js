@@ -28,19 +28,19 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Installation
-  ${data.install}
+  ${data.installation}
   
   ## Usage
   ${data.usage}
 
   ## Contributions
-  ${data.contributors}
+  ${data.contribution}
 
   ## Tests 
-  ${data.test}
+  ${data.tests}
 
   ## Author
-  ${data.github}
+  ${data.username}
 
   ## Questions
   If you have any other questions, please contact me at ${data.email}.

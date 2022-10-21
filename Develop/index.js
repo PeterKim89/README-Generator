@@ -8,39 +8,48 @@ const questions = () => {
     return inquirer.prompt([
         {
             type: "input",
-            "What's your project's title?"
+            name: "title",
+            message: "What's your project's title?"
         },  
         {
             type: "input",
-            "Write a short description for your project."
+            name: "description",
+            message: "Write a short description for your project."
         },
         {
             type: "input",
-            "Write some installation instructions for your project."
+            name: "installation",
+            message: "Write some installation instructions for your project."
         },
         {
             type: "input",
-            "How do you use your project?"
+            name: "usage",
+            message: "How do you use your project?"
         },
         {
             type: "input",
-            "Write some contribution guidelines for others.",
+            name: "contribution",
+            message: "Write some contribution guidelines for others.",
         },
         {  
             type: "input",
-            "Write some example tests for your project.",
+            name: "tests",
+            message: "Write some example tests for your project.",
         },    
         {
             type: "input",
-            "What's your GitHub username?",
+            name: "username",
+            message: "What's your GitHub username?",
         },
         {
             type: "input",
-            "What's your email?",
+            name: "email",
+            message: "What's your email?",
         },
         {
             type: "list",
-            "Choose a license for your project."
+            name: "license",
+            message: "Choose a license for your project."
         }
 ]);
 };
