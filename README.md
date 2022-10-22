@@ -63,16 +63,16 @@ Answer the questions relating to your project and contact information.
 If successful, a readme will be created in the develop folder.
 
 ## Languages and Technology
-Javascript
-Node.js
-npm
+Javascript<br>
+Node.js<br>
+npm<br>
 Inquirer.js
 
 ## Author
-[GitHub](https://github.com/PeterKim89)
-[LinkedIn](www.linkedin.com/in/peter-kim89)   
+[GitHub](https://github.com/PeterKim89)<br>
+[LinkedIn](www.linkedin.com/in/peter-kim89)<br>
 [Email] Peter.Kim@uconn.edu
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/)<br>
 Copyright (c) [2022] [Peter Kim]
