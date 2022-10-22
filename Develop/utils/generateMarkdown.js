@@ -6,13 +6,13 @@ function renderLicenseBadge(license) {
     badgeLink = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
   }
   else if (license === "APACHE 2.0") {
-    badgeLink = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+    badgeLink = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]";
   }
   else if (license === "GPL 3.0") {
-    badgeLink = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+    badgeLink = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]";
   }
   else if (license === "BSD 3") {
-    badgeLink = "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+    badgeLink = "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]";
   }
   return badgeLink;
 }
