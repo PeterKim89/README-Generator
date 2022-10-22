@@ -41,7 +41,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   let licenseText = "";
   if (license === "MIT") {
-    licenseText = `## License\n
+    licenseText = `## License
     [MIT]${renderLicenseLink("MIT")}
     `
   }
@@ -95,7 +95,7 @@ function generateMarkdown(data) {
 
   ## Author
   [GitHub](https://www.github.com/${data.username})
-  [Email]:${data.email}
+  [Email] ${data.email}
 
   ## Questions
   If you have any other questions, please contact me at ${data.email}.
