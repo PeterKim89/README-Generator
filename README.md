@@ -1,4 +1,5 @@
 # README-Generator
+[Demo] https://watch.screencastify.com/v/x7y8Uu22spoHHkwkeuen
 
 ## Introduction
 Any good project repository needs a good README. That's why in this project, I created a README generator.
@@ -62,9 +63,16 @@ Answer the questions relating to your project and contact information.
 If successful, a readme will be created in the develop folder.
 
 ## Languages and Technology
-
+Javascript
+Node.js
+npm
+Inquirer.js
 
 ## Author
-
+[GitHub](https://github.com/PeterKim89)
+[LinkedIn](www.linkedin.com/in/peter-kim89)   
+[Email] Peter.Kim@uconn.edu
 
 ## License
+[MIT](https://choosealicense.com/licenses/mit/)
+Copyright (c) [2022] [Peter Kim]
