@@ -86,7 +86,7 @@ function writeToFile(fileName, data) {
 function init() {
     // prompts the array of questions
     questions()
-    // user answers are then passed to the generateReadMe function to fill in user specific data
+    // user answers are then passed to the generateMarkdown function to fill in user specific data
     .then (answers => {
         return generateReadMe(answers);
     })
